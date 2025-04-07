@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Sri Lanka - Tourism</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="bi bi-globe-asia-australia me-2 fs-3"></i>
+                <span>Ancient Sri Lanka</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="bi bi-house-door me-1"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="attractions.html">
+                            <i class="bi bi-geo-alt me-1"></i> Attractions
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">
+                            <i class="bi bi-book me-1"></i> History & Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="position-relative overflow-hidden" style="height: 100vh; max-height: 800px;">
+        <video autoplay muted loop class="position-absolute w-100 h-100" style="object-fit: cover;">
+            <source src="assets/Seamless Sri Lanka.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="position-absolute w-100 h-100" style="background-color: rgba(0,0,0,0.5); pointer-events: none;"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-4">
+            <h1 class="display-2 fw-bold mb-4" data-aos="fade-down" data-aos-duration="1000">Discover Ancient Sri Lanka</h1>
+            <p class="lead fs-3 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                Experience the rich heritage and breathtaking landscapes of a timeless civilization
+            </p>
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <a href="attractions.html" class="btn btn-warning btn-lg px-5 py-3 me-3 rounded-pill">
+                    <i class="bi bi-compass me-2"></i> Explore Attractions
+                </a>
+                <a href="#about" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill">
+                    <i class="bi bi-arrow-down me-2"></i> Learn More
+                </a>
+            </div>
+        </div>
+        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4 text-white">
+            <a href="#about" class="text-white">
+                <i class="bi bi-chevron-double-down fs-1 animate-bounce"></i>
+            </a>
+        </div>
+    </div>
+    
+
+    <div class="container my-5 py-5" id="about">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                <span class="badge bg-warning text-dark mb-2">WELCOME</span>
+                <h2 class="display-4 mb-4 fw-bold">The Island of Ancient Wonders</h2>
+                <p class="lead">Sri Lanka, formerly known as Ceylon, is home to some of the world's most remarkable ancient civilizations and architectural marvels.</p>
+                <div class="d-flex mb-4">
+                    <div class="me-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check-circle-fill text-warning me-2 fs-4"></i>
+                            <h5 class="mb-0">Rich Heritage</h5>
+                        </div>
+                        <p>Over 2,500 years of documented history and culture</p>
+                    </div>
+                    <div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check-circle-fill text-warning me-2 fs-4"></i>
+                            <h5 class="mb-0">UNESCO Sites</h5>
+                        </div>
+                        <p>Eight World Heritage Sites to explore</p>
+                    </div>
+                </div>
+                <p>From the sacred city of Anuradhapura to the majestic rock fortress of Sigiriya, ancient Sri Lanka beckons travelers to explore its timeless treasures.</p>
+                <a href="history.html" class="btn btn-dark btn-lg mt-3 rounded-pill">
+                    <i class="bi bi-book me-2"></i> Discover Our History
+                </a>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-3d-container">
+                    <div class="card shadow border-0 rounded-4 overflow-hidden">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                            </div>
+                            <div class="carousel-inner rounded">
+                                <div class="carousel-item active">
+                                    <img src="assets/sri-lanka-beach.jpg" class="d-block w-100" alt="Sri Lankan Beach">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Sri-Lanka-World-Heritage.jpg" class="d-block w-100" alt="Sigiriya Rock Fortress">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/srilanka-elephant.jpg" class="d-block w-100" alt="Elephants">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Attractions with Parallax -->
+    <div class="py-5 position-relative" style="background: url('https://source.unsplash.com/random/1920x1080/?srilanka,ancient') no-repeat fixed center/cover;">
+        <div style="background-color: rgba(0,0,0,0.7);" class="position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="container py-5 position-relative">
+            <div class="text-center mb-5 text-white" data-aos="fade-up">
+                <span class="badge bg-warning text-dark mb-2">EXPLORE</span>
+                <h2 class="display-4 fw-bold">Featured Ancient Attractions</h2>
+                <p class="lead">Discover the wonders that have stood the test of time</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="card h-100 shadow border-0 rounded-4 transform-hover">
+                        <div class="position-relative">
+                            <img src="assets/sigiriya.webp" class="card-img-top" alt="Sigiriya Rock Fortress">
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-warning text-dark">UNESCO Site</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sigiriya Rock Fortress</h5>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill text-warning me-2"></i>
+                                <small>Central Province, Sri Lanka</small>
+                            </div>
+                            <p class="card-text">This ancient rock fortress dates back to the 5th century and features remarkable frescoes and an ingenious water garden system.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="attractions.html#sigiriya" class="btn btn-sm btn-warning rounded-pill px-3">
+                                    <i class="bi bi-info-circle me-1"></i> Learn More
+                                </a>
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="card h-100 shadow border-0 rounded-4 transform-hover">
+                        <div class="position-relative">
+                            <img src="assets/Anuradhapura-Sri-Lanka-Ruwanweli.webp" class="card-img-top" alt="Anuradhapura">
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-warning text-dark">UNESCO Site</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sacred City of Anuradhapura</h5>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill text-warning me-2"></i>
+                                <small>North Central Province, Sri Lanka</small>
+                            </div>
+                            <p class="card-text">The ancient capital of Sri Lanka for over 1,000 years, home to well-preserved ruins of ancient Sri Lankan civilization.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="attractions.html#anuradhapura" class="btn btn-sm btn-warning rounded-pill px-3">
+                                    <i class="bi bi-info-circle me-1"></i> Learn More
+                                </a>
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="card h-100 shadow border-0 rounded-4 transform-hover">
+                        <div class="position-relative">
+                            <img src="assets/polonnaruwa-web.webp" class="card-img-top" alt="Polonnaruwa">
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-warning text-dark">UNESCO Site</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ancient City of Polonnaruwa</h5>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill text-warning me-2"></i>
+                                <small>North Central Province, Sri Lanka</small>
+                            </div>
+                            <p class="card-text">The second most ancient kingdom of Sri Lanka featuring 12th-century ruins and impressive stone sculptures.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="attractions.html#polonnaruwa" class="btn btn-sm btn-warning rounded-pill px-3">
+                                    <i class="bi bi-info-circle me-1"></i> Learn More
+                                </a>
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+                <a href="attractions.html" class="btn btn-light btn-lg rounded-pill px-5">
+                    <i class="bi bi-map me-2"></i> View All Attractions
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Counter Section -->
+    <div class="container py-5">
+        <div class="row text-center">
+            <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up">
+                <div class="bg-light rounded-4 p-4 shadow-sm h-100">
+                    <i class="bi bi-building-fill text-warning display-4 mb-3"></i>
+                    <h2 class="counter fw-bold">8</h2>
+                    <p class="text-muted">UNESCO World Heritage Sites</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="bg-light rounded-4 p-4 shadow-sm h-100">
+                    <i class="bi bi-calendar2-check-fill text-warning display-4 mb-3"></i>
+                    <h2 class="counter fw-bold">2500</h2>
+                    <p class="text-muted">Years of History</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="400">
+                <div class="bg-light rounded-4 p-4 shadow-sm h-100">
+                    <i class="bi bi-people-fill text-warning display-4 mb-3"></i>
+                    <h2 class="counter fw-bold">1000000</h2>
+                    <p class="text-muted">Annual Visitors</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="bg-light rounded-4 p-4 shadow-sm h-100">
+                    <i class="bi bi-camera-fill text-warning display-4 mb-3"></i>
+                    <h2 class="counter fw-bold">50</h2>
+                    <p class="text-muted">Major Historical Sites</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Swiper -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge bg-warning text-dark mb-2">TESTIMONIALS</span>
+                <h2 class="display-5 fw-bold">What Visitors Say</h2>
+                <p class="lead">Hear from travelers who have experienced the wonders of ancient Sri Lanka</p>
+            </div>
+            
+            <div class="swiper testimonialSwiper" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper pb-5">
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                            <div class="d-flex mb-4">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle" width="60" height="60" alt="Sarah J.">
+                                <div class="ms-3">
+                                    <h5 class="mb-1">Sarah Johnson</h5>
+                                    <p class="mb-0 text-muted">United Kingdom</p>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Visiting Sigiriya was like stepping back in time. The ancient engineering and artistry are simply breathtaking. A must-visit for anyone interested in history and ancient civilizations."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                            <div class="d-flex mb-4">
+                                <img src="https://randomuser.me/api/portraits/men/44.jpg" class="rounded-circle" width="60" height="60" alt="Michael T.">
+                                <div class="ms-3">
+                                    <h5 class="mb-1">Michael Thompson</h5>
+                                    <p class="mb-0 text-muted">Australia</p>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The ancient cities of Sri Lanka are incredible. I was amazed by the sophisticated irrigation systems and architectural achievements of this ancient civilization. The local guides were knowledgeable and friendly."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                            <div class="d-flex mb-4">
+                                <img src="https://randomuser.me/api/portraits/men/22.jpg" class="rounded-circle" width="60" height="60" alt="Akira N.">
+                                <div class="ms-3">
+                                    <h5 class="mb-1">Akira Nakamura</h5>
+                                    <p class="mb-0 text-muted">Japan</p>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                            </div>
+                            <p class="card-text">"The ancient Buddhist temples and stupas are not only historically significant but spiritually moving. Sri Lanka's ancient heritage is truly a world treasure that deserves more recognition."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                            <div class="d-flex mb-4">
+                                <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle" width="60" height="60" alt="Maria G.">
+                                <div class="ms-3">
+                                    <h5 class="mb-1">Maria Garcia</h5>
+                                    <p class="mb-0 text-muted">Spain</p>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The cultural triangle of Sri Lanka exceeded all my expectations. The historical sites are well-preserved and the stories behind them are fascinating. I particularly loved the ancient city of Polonnaruwa."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Virtual Tour Section -->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                <span class="badge bg-warning text-dark mb-2">EXPERIENCE</span>
+                <h2 class="display-5 fw-bold mb-4">Take a Virtual Tour</h2>
+                <p class="lead">Get a glimpse of Sri Lanka's ancient wonders before your visit</p>
+                <p>Our interactive 360° tours allow you to explore some of Sri Lanka's most iconic ancient sites from the comfort of your home. Click the button below to start your virtual journey through time.</p>
+                <button type="button" class="btn btn-warning btn-lg rounded-pill px-4 mt-3" data-bs-toggle="modal" data-bs-target="#virtualTourModal">
+                    <i class="bi bi-play-circle me-2"></i> Start Virtual Tour
+                </button>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                <div class="position-relative rounded-4 overflow-hidden shadow">
+                    <img src="assets/virtual-tour.webp" class="img-fluid w-100" alt="Virtual Tour">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                        <button class="btn btn-light rounded-circle p-3" data-bs-toggle="modal" data-bs-target="#virtualTourModal">
+                            <i class="bi bi-play-fill text-warning fs-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="virtualTourModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">Virtual Tour: Ancient Sri Lanka</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QdD_cpI-F6E?si=gcJoqOgDMSSwW4sR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" style="background: url('assets/sunset.webp') no-repeat center/cover;">
+        <div style="background-color: rgba(0,0,0,0.6);" class="position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="container py-5 position-relative">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center text-white" data-aos="zoom-in">
+                    <h2 class="display-4 fw-bold mb-4">Ready to Explore Ancient Sri Lanka?</h2>
+                    <p class="lead fs-4 mb-5">Discover the wonders of this island's rich heritage and breathtaking landscapes</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="attractions.html" class="btn btn-warning btn-lg px-5 py-3 rounded-pill">
+                            <i class="bi bi-map me-2"></i> View Attractions
+                        </a>
+                        <a href="history.html#contact" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill">
+                            <i class="bi bi-envelope me-2"></i> Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center" data-aos="fade-up">
+                <i class="bi bi-envelope-paper text-warning display-3 mb-3"></i>
+                <h2 class="mb-4">Subscribe to Our Newsletter</h2>
+                <p class="lead mb-5">Stay updated with the latest information about ancient Sri Lankan sites, special tours, and travel tips.</p>
+                <form id="newsletterForm" class="row g-3 justify-content-center">
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <input type="email" class="form-control form-control-lg rounded-pill-start" placeholder="Your email address" required>
+                            <button class="btn btn-warning btn-lg rounded-pill-end" type="submit">
+                                <i class="bi bi-send me-2"></i> Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-globe-asia-australia me-2 fs-3 text-warning"></i>
+                        <h5 class="mb-0">Ancient Sri Lanka Tourism</h5>
+                    </div>
+                    <p>Discover the island's rich cultural heritage and ancient wonders through immersive travel experiences.</p>
+                    <div class="d-flex mt-4">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Home</a></li>
+                        <li class="mb-2"><a href="attractions.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Attractions</a></li>
+                        <li class="mb-2"><a href="history.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> History</a></li>
+                        <li class="mb-2"><a href="history.html#contact" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3">Popular Attractions</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="attractions.html#sigiriya" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Sigiriya Rock</a></li>
+                        <li class="mb-2"><a href="attractions.html#anuradhapura" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Anuradhapura</a></li>
+                        <li class="mb-2"><a href="attractions.html#polonnaruwa" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Polonnaruwa</a></li>
+                        <li class="mb-2"><a href="attractions.html#kandy" class="text-white text-decoration-none"><i class="bi bi-chevron-right me-1 text-warning"></i> Kandy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 d-flex align-items-center"><i class="bi bi-geo-alt-fill text-warning me-2"></i> 123 Temple Road, Colombo, Sri Lanka</li>
+                        <li class="mb-2 d-flex align-items-center"><i class="bi bi-telephone-fill text-warning me-2"></i> +94 11 234 5678</li>
+                        <li class="mb-2 d-flex align-items-center"><i class="bi bi-envelope-fill text-warning me-2"></i> info@ancientsrilanka.com</li>
+                        <li class="mb-2 d-flex align-items-center"><i class="bi bi-clock-fill text-warning me-2"></i> Mon-Fri: 9:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Ancient Sri Lanka Tourism. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none me-3">Terms of Service</a>
+                    <a href="#" class="text-white text-decoration-none">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="btn btn-warning btn-lg rounded-circle position-fixed bottom-0 end-0 m-4" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
