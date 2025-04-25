@@ -50,6 +50,8 @@ This project is a tourism-focused website dedicated to ancient Sri Lanka's cultu
    - Stats and figures
    - Newsletter subscription
 
+![screencapture-localhost-8000-index-html-2025-04-25-07_10_56](https://github.com/user-attachments/assets/a3d34397-0c73-4c4d-9f8c-efc352f0b9e7)
+
 2. **Attractions (attractions.html)**
    - Detail information on UNESCO sites
    - Cultural Triangle overview
@@ -57,12 +59,16 @@ This project is a tourism-focused website dedicated to ancient Sri Lanka's cultu
    - Image galleries
    - Video content
 
+![screencapture-localhost-8000-attractions-html-2025-04-25-07_12_34](https://github.com/user-attachments/assets/31f95fdf-12e2-499f-9f32-d13e21925a09)
+
 3. **History & Contact (history.html)**
    - Historical timeline
    - Key historical periods
    - Cultural heritage information
    - Contact form
    - FAQ section
+
+![screencapture-localhost-8000-history-html-2025-04-25-07_14_05](https://github.com/user-attachments/assets/bdab161a-b63d-468f-8b8f-6a219c384cf2)
 
 ## 🚀 Setup & Installation
 
